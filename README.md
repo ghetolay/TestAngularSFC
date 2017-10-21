@@ -1,27 +1,32 @@
 # TestSfc
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0-rc.0.
+This repo is an example to show of the attempt to introduce single file component where template and styles can be of any type.
+You can see the source file of that POC here: https://github.com/ghetolay/angular-cli/tree/sfc.
 
-## Development server
+The project can be run with cli or webpack. To play with custom type you need to use the webpack build and add custom loaders respectively.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## cli
+To run cli you just need to use the usual command.
 
-## Code scaffolding
+JIT :
+```
+ng serve
+```
+AOT :
+```
+ng serve --aot
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## webpack
+You can use the `start` script to run it with webpack.
 
-## Build
+JIT :
+```
+npm start
+```
+AOT :
+```
+npm start --env.aot
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This project is meant for people to play with but you can also produce builds of course using `ng build` and `webpack`.
