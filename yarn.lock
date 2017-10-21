@@ -32,13 +32,13 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/cli@../angular-cli/dist/@angular/cli":
+"@angular/cli@https://rawgit.com/ghetolay/angular-cli/sfc-dist/dist/%40angular_cli.tgz":
   version "1.5.0-rc.2"
+  resolved "https://rawgit.com/ghetolay/angular-cli/sfc-dist/dist/%40angular_cli.tgz#cff914c9ac827660903ce4908d9674fc32dbeaac"
   dependencies:
     "@angular-devkit/build-optimizer" "~0.0.28"
     "@angular-devkit/schematics" "~0.0.34"
     "@ngtools/json-schema" "1.1.0"
-    "@ngtools/webpack" "1.8.0-rc.2"
     "@schematics/angular" "~0.0.48"
     autoprefixer "^6.5.3"
     chalk "^2.0.1"
@@ -165,20 +165,9 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@ngtools/json-schema/-/json-schema-1.1.0.tgz#c3a0c544d62392acc2813a42c8a0dc6f58f86922"
 
-"@ngtools/webpack@../angular-cli/dist/@ngtools/webpack":
+"@ngtools/webpack@https://rawgit.com/ghetolay/angular-cli/sfc-dist/dist/%40ngtools_webpack.tgz":
   version "1.8.0-rc.2"
-  dependencies:
-    chalk "^2.0.1"
-    enhanced-resolve "^3.1.0"
-    loader-utils "^1.0.2"
-    magic-string "^0.22.3"
-    semver "^5.3.0"
-    source-map "^0.5.6"
-    tree-kill "^1.0.0"
-
-"@ngtools/webpack@1.8.0-rc.2":
-  version "1.8.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-1.8.0-rc.2.tgz#b49498837d6d4abd5602b874a3d67be4e97857c5"
+  resolved "https://rawgit.com/ghetolay/angular-cli/sfc-dist/dist/%40ngtools_webpack.tgz#d9bccea8761176b1f49cf7ed9ce2c29a011e4d46"
   dependencies:
     chalk "^2.0.1"
     enhanced-resolve "^3.1.0"
