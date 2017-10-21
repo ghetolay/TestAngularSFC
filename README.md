@@ -8,11 +8,11 @@ The project can be run with cli or webpack. To play with custom type you need to
 ## cli
 To run cli you just need to use the usual command.
 
-JIT :
+JIT:
 ```
 ng serve
 ```
-AOT :
+AOT:
 ```
 ng serve --aot
 ```
@@ -20,11 +20,11 @@ ng serve --aot
 ## webpack
 You can use the `start` script to run it with webpack.
 
-JIT :
+JIT:
 ```
 npm start
 ```
-AOT :
+AOT:
 ```
 npm start --env.aot
 ```
